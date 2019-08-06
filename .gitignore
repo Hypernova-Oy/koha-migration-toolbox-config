@@ -1,8 +1,12 @@
 secret
 VoyagerExport*
+PrettyLibExports
+PrettyCircExports
+RawExports
 KohaImport*
 logs
 .bak
+*.tar.gz
 ~$
 .vstags
 *.komodoproject
