@@ -1,0 +1,16 @@
+---
+
+##
+## IN THIS FILE
+##
+## This mapping table is used by the module MMT::TranslationTable::Branchcodes
+## it defines mappings from PrettyLib.Library to Koha's branchcode used in various tables.
+##
+
+#PrettyLib.Library
+#"ID_PRETTYLIB","KOHA_BRANCHCODE","Name","OfficialName","PostAddress","PostCode","Country","Phone","Fax","LibraryId","AcqNumPrefix","Email","SMTP"
+1: KONVERSIO  # ,"-","","","","","","","","","",""
+2: MFA        # ,"Kirjasto","Arkkitehtuurimuseo;;;;;","Kasarmikatu 24;;;;;","00130 Helsinki;;;;;","Finland;;;;;","04577310484;;;;;",";;;;;","MFAK","","kirjasto@mfa.fi","smtp.kolumbus.fi"
+
+_DEFAULT_:      KONVERSIO
+

@@ -1,0 +1,75 @@
+---
+
+##
+## IN THIS FILE
+##
+## This mapping table is used by the module MMT::TranslationTable::LocationId
+## it defines mappings from location column to Koha's shelving_location
+##
+
+##
+## ref(101) - Refer another value instead.
+##
+## Used to alias various values to make accessing this table with different values from different data sources.
+## Mainly the MARC-records refer using string-key, and other parts refer with the id.
+
+#branchLoc sets the following attributes:
+#       branchcode, shelving_location, collection_code, sub_location, item.itemtype, item.notforloan-status
+
+#PrettyLib.Location -table
+#"ID IN PRETTYLIB!","LOCATION IN KOHA!","Location","Period","UserLevel","Role","Freq"
+1:   branchLoc(,A)    # "A", 30,,1,17307
+329: branchLoc(,A; alakerta)    # "A; alakerta", 30,,0,63
+212: branchLoc(,A; foliohylly)    # "A; foliohylly", 30,,1,4
+347: branchLoc(,A; foliohylly (uutuuksien alahylly))    # "A; foliohylly (uutuuksien alahylly)", 30,,0,53
+168: branchLoc(,A; kellarivarasto)    # "A; kellarivarasto", 30,,0,916
+328: branchLoc(,A; käsikirjastohylly)    # "A; k�sikirjastohylly", 30,,0,20
+358: branchLoc(,A; Lapset-hylly)    # "A; Lapset-hylly", 30,,0,40
+311: branchLoc(,A; Museon näyttelyjulkaisut -kaappi)    # "A; Museon n�yttelyjulkaisut -kaappi", 30,,0,7
+300: branchLoc(,A; näyttelymonistekansio)    # "A; n�yttelymonistekansio", 30,,0,3
+351: branchLoc(,A; Pro Helsingfors -kansio)    # "A; Pro Helsingfors -kansio", 30,,0,2
+253: branchLoc(,A; rakennustekniikka)    # "A; rakennustekniikka", 30,,1,115
+325: branchLoc(,A; Suomen Tammi)    # "A; Suomen Tammi", 30,,0,135
+171: branchLoc(,A; Vantaan varasto)    # "A; Vantaan varasto", 30,,0,2526
+371: branchLoc(,Arkisto)    # "Arkisto", 0,,3,1
+294: branchLoc(,arkistoaineistojen kokoelma)    # "arkistoaineistojen kokoelma", 30,,0,11
+2:   branchLoc(,F)    # "F", 0,,2,11530
+214: branchLoc(,F (?))    # "F (?)", 0,,0,10
+271: branchLoc(,F (folio))    # "F (folio)", 0,,2,7
+314: branchLoc(,F; arkkitehtihaastattelut-kansio)    # "F; arkkitehtihaastattelut-kansio", 0,,2,4
+277: branchLoc(,F; Asuminen-kansio)    # "F; Asuminen-kansio", 0,,2,12
+368: branchLoc(,F; Asuntonäyttelyt-kansio)    # "F; Asunton�yttelyt-kansio", 30,,0,13
+356: branchLoc(,F; Blomstedtin kirjasto)    # "F; Blomstedtin kirjasto", 0,,0,9
+370: branchLoc(,F; haastattelut)    # "F; haastattelut", 30,,0,1
+291: branchLoc(,F; kausijulkaisut)    # "F; kausijulkaisut", 0,,2,119
+203: branchLoc(,F; kellarivarasto)    # "F; kellarivarasto", 0,,2,106
+373: branchLoc(,F; kirkot-kansio)    # "F; kirkot-kansio", 30,,0,1
+216: branchLoc(,F; Museon näyttelyjulkaisut -kaappi)    # "F; Museon n�yttelyjulkaisut -kaappi", 0,,2,157
+290: branchLoc(,F; museon ulkomaiset näyttelyt -kansio)    # "F; museon ulkomaiset n�yttelyt -kansio", 0,,2,19                                                                                     
+250: branchLoc(,F; näyttelymonistekansio)    # "F; n�yttelymonistekansio", 0,,2,121
+352: branchLoc(,F; Pro Helsingfors -kansio)    # "F; Pro Helsingfors -kansio", 30,,0,2
+241: branchLoc(,F; Vantaan varasto)    # "F; Vantaan varasto", 0,,0,248
+278: branchLoc(,FP)    # "FP", 0,,0,41
+4:   branchLoc(,K)    # "K", 0,,2,408
+202: branchLoc(,K; arkisto)    # "K; arkisto", 0,,0,3
+355: branchLoc(,K; Blomstedtin kirjasto)    # "K; Blomstedtin kirjasto", 0,,0,243
+324: branchLoc(,K; foliohylly)    # "K; foliohylly", 30,,0,2
+348: branchLoc(,K; foliohylly (uutuuksien alahylly))    # "K; foliohylly (uutuuksien alahylly)", 30,,0,9
+174: branchLoc(,K; kellarivarasto)    # "K; kellarivarasto", 0,,0,9
+327: branchLoc(,K; kellarivarasto suljettu)    # "K; kellarivarasto suljettu", 0,,0,95
+295: branchLoc(,K; rakennustekniikka)    # "K; rakennustekniikka", 0,,1,2
+343: branchLoc(,K; RT-hylly)    # "K; RT-hylly", 30,,0,9
+350: branchLoc(,K; Vantaan varasto)    # "K; Vantaan varasto", 30,,0,20
+149: branchLoc(,KT)    # "KT", 0,,2,25
+8:   branchLoc(,M)    # "M", 0,,1,5
+148: branchLoc(,MT)    # "MT", 0,,1,9
+7:   branchLoc(,R)    # "R", 0,,2,456
+362: branchLoc(,R; Blomstedtin kirjasto)    # "R; Blomstedtin kirjasto", 0,,0,11
+323: branchLoc(,R; foliohylly)    # "R; foliohylly", 0,,0,2
+346: branchLoc(,R; foliohylly (uutuuksien alahylly))    # "R; foliohylly (uutuuksien alahylly)", 0,,0,9
+292: branchLoc(,R; rakennustekniikka)    # "R; rakennustekniikka", 0,,1,7
+287: branchLoc(,R; Vantaan varasto)    # "R; Vantaan varasto", 0,,0,4
+12:  branchLoc(,ST)    # "ST", 30,,1,9
+234: branchLoc(,Vantaan varasto)    # "Vantaan varasto", 30,,0,117
+
+#_DEFAULT_: warning()

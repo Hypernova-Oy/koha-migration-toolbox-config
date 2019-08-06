@@ -1,0 +1,28 @@
+---
+
+##
+## IN THIS FILE
+##
+## This mapping table is used by the module MMT::TranslationTable::PatronCategorycode
+## it defines mappings from PrettyLib.Customer.Id_Group to koha.borrowers.categorycode
+##
+
+#MFA source values
+1:  OPIS    # opiskelija
+2:  OMAO    # oma organisaatio
+3:  KVAJ    # kirjastovaliokunnan jäsen
+5:  KTOP    # kuvaamataidonopettaja
+6:  ARKK    # arkkitehti
+7:  TAHI    # taidehistorioitsija
+8:  AROP    # arkkitehtiopiskelija
+9:  TUTK    # tutkija
+10: TOPI    # opiskelija (Taik)
+11: TPRO    # professori, TAIK
+12: TTYA    # arkkitehti, prof. TTY
+13: TAHT    # taidehistorioitsija, tutkija
+14: ASIA    # asiakas
+15: KVAX    # kirjastovaliokunnan jäsen (ent.)
+16: TEST    # testi
+
+_DEFAULT_: ASIA    #Default value to use, if nothing matches. if this field is omitted, MMT simply warns and ignores the value.
+
