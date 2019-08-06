@@ -1,0 +1,85 @@
+---
+
+##
+## IN THIS FILE
+##
+## The main configurations for MMT Voyager
+##
+##
+## Configurations are introduced in the same order as they are needed by the migration tools
+
+# From which system are we migrating from?
+# One of ['Voyager', 'PrettyLib']
+#sourceSystemType: 'Voyager'
+sourceSystemType: 'PrettyLib'
+
+############################
+### 1) Data export phase ###
+## Voyager DB dumps are fetched and delivered for the data transformation phase
+
+# Name of the script in directory $MMT_HOME/secret used to extract data from the VoyagerDB-server into the Koha-server.
+# See the extractor-dir for example implementations.
+exportPipelineScript: 'voyagerToTransformer.sh'
+
+####################################
+### 2) Data transformation phase ###
+## Exported DB rows are mangled into Koha-objects
+
+# Enable multithreading by defining workers.
+workers: 0
+
+# Load ssns to Hetula instead of storing them in Koha as plain text.
+# Boolean value
+useHetula: false
+
+# Holdings transformation strategy to use.
+# The way holdings records are used in various databases vary, hence one transformation set of rules wont work for all source databases.
+holdingsTransformationModule: HAMK
+
+# If the item doesn't have a price or a replacementprice, use this default.
+defaultReplacementPrice: 25
+
+# ISIL-code for the migrated organization
+# Used primarily in the MARC record transformations.
+organizationISILCode: FI-JNSKonsa
+
+# Set the Patron home library to this value for all patrons. Leave empty to use the LocationId-translation table.
+patronHomeLibrary:
+
+# How many expiry years to add for patron account if expiry date is not defined in Voyager
+patronAddExpiryYears: 1
+
+# Which strategy to use to validate phone numbers
+# See MMT::Validator::Phone for available strategies
+phoneNumberValidationStrategy: HAMK
+
+emptyBarcodePolicy: ERROR
+
+# Replaces zeroes (0) with the id of the object being transformed
+emptyBarcodePattern: JNS00000000
+
+# How Perl's Text::CSV should handle .csv-files input?
+# Output is hard-coded and should not be changed to maintain zero-configuration compatibility with the Loader-modules
+csvInputParams:
+  new:
+    binary: 1
+    sep_char: ";"
+    auto_diag: 9
+    always_quote: 1
+  header:
+    detect_bom: 1
+    munge_column_names: none
+
+############ PRETTY* -specific configs ################
+
+# Instead of the Item.BarCode use Item.AcqNumIdx to populate koha.items.barcode
+pl_barcodeFromAcqNumber: 1
+
+#############################
+### 3) Data loading phase ###
+## Exported DB rows are mangled into Koha-objects
+
+# Name of the script in directory $MMT_HOME/secret used to import the transformed data into Koha
+# See the importer-dir for example implementations.
+importPipelineScript: 'transformerToKoha.sh'
+
