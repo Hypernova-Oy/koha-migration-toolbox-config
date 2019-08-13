@@ -15,29 +15,34 @@
 364: branchLoc(,A-talo A018/) # , 30, 8, 364, 3, A-talo A018/Viululuokka Hans Lodders
 175: branchLoc(,A-talo A020 ) # A-talo A020 Huiliuluokka, 175, 4, 0, 30, 0
 125: branchLoc(,A-talo A103/) # A-talo A103/Teorialuokka Jukka Koistinen, 101, 0, 125, , 28
+
+#Yhdistetään => A-talo A106/Apulaisrehtori
 382: branchLoc(,A-talo A106/) # 30, 0, A-talo A106/Apulaisrehtori, 3, 2, 382
 120: branchLoc(,A-talo A106/) # A-talo A106/Opintosihteeri, 5, 0, 120, 0, 30
+
 298: branchLoc(,A-talo A107/) # , 30, 4, 298, 0, A-talo A107/Opinto-ohjaaja
 275: branchLoc(,A-talo A109/) # 30, , 3, 3, 275, A-talo A109/Säestysluokka Svetlana Pustoshnaja
 291: branchLoc(,A-talo A110/) # A-talo A110/Selloluokka Pertti Leinonen, 5, 291, 3, , 30
-354: branchLoc(,A-talo A111) # 3, 354, 0, A-talo A111, , 30
+
+# Yhdistetään => A-talo A111/Fagotti- ja oboeluokka
 373: branchLoc(,A-talo A111/) # A-talo A111/Fagottiluokka, 2, 373, 3, 0, 30
 315: branchLoc(,A-talo A111/) # A-talo A111/Oboe Katrharine Freihoff, 4, 315, 3, 0, 30
+354: branchLoc(,A-talo A111) # 3, 354, 0, A-talo A111, , 30
+
 167: branchLoc(,A-talo A114/) # A-talo A114/Teorialuokka Inga Grigorjeva, 0, 129, 167, 30, 
 38: branchLoc(,A-talo alake) # 30, 0, A-talo alakerta/Oppilaskunnanhuone, 38, 2, 0
-180: branchLoc(,A-talo B110) # 0, 30, 4, 0, 180, A-talo B110
-372: branchLoc(,A-talo B110/) # 0, 30, 31, 372, 3, A-talo B110/Muskari
-360: branchLoc(,A-talo B111/) # A-talo B111/Selloluokka Pirre Raijas, 24, 3, 360, , 30
+180: branchLoc(,A-talo B110) # 0, 30, 4, 0, 180, A-talo B110/alttoviulu
+360: branchLoc(,A-talo B111/) # A-talo B111/Selloluokka Ville Kivivuori, 24, 3, 360, , 30
 212: branchLoc(,A-talo B113/) # 212, 9, 3, A-talo B113/Säestysluokka Jaroslava Kotorova, 30, 
 36: branchLoc(,A-talo B114/) # 30, 0, 0, 6, 36, A-talo B114/Pianoluokka Päivi Nylund
 204: branchLoc(,A-talo B215/) # , 30, 9, 204, 3, A-talo B215/Pianoluokka Loikkanen
-211: branchLoc(,A-talo B216/) # A-talo B216/Linjanjohtaja Otto Korhonen, 9, 3, 211, 0, 30
+211: branchLoc(,A-talo B216/) # A-talo B216/Pianoluokka Otto Korhonen, 9, 3, 211, 0, 30
 179: branchLoc(,A-talo B218/) # , 30, A-talo B218/Pianoluokka Tuulikki Lehtinen, 7, 179, 0
 206: branchLoc(,A-talo B219/) # 30, , 3, 5, 206, A-talo B219/PianoluokkaMargareta Domanska
 42: branchLoc(,A-talo B221/) # A-talo B221/Pianoluokka Reija Kähkönen, 42, 7, 0, 30, 0
 191: branchLoc(,A-talo B306/) # , 30, 4, 191, 0, A-talo B306/Viululuokka Jarmo Kähkönen
 26: branchLoc(,A-talo B307/) # 0, 30, A-talo B307/Kitaraluokka Juha Mitjonen, 47, 26, 0
-44: branchLoc(,A-talo B308/) # 30, 0, A-talo B308/Viululuokka Tapani Yrjölä, 0, 2, 44
+44: branchLoc(,A-talo B308/) # 30, 0, A-talo B308/Viululuokka, 0, 2, 44
 277: branchLoc(,A-talo B310/) # 4, 3, 277, A-talo B310/Viululuokka Sakari Tervo, 0, 30
 187: branchLoc(,A-talo B311/) # A-talo B311/Huiluluokka Pekka Mustaniemi, 187, 1, 0, 30, 
 47: branchLoc(,A-talo B313/) # 30, 0, A-talo B313/Viululuokka Katri Kaihola, 0, 12, 47
@@ -50,12 +55,13 @@
 371: branchLoc(,A-talo/Kokou) # 0, 30, 4, 371, 3, A-talo/Kokoushuone
 61: branchLoc(,A-talo/Konse) # A-talo/Konserttisali, 0, 16, 61, 0, 30
 287: branchLoc(,A-talo/Rehto) # 12, 0, 287, A-talo/Rehtori, 28, 
-227: branchLoc(,AMK/Pop/jazz) # 0, 1, 227, AMK/Pop/jazz-osasto, , 30
-84: branchLoc(,Atk-luokka) # 30, 0, Atk-luokka, 16, 84, 0
-37: branchLoc(,Auditorio) # 30, 0, 13, 0, 37, Auditorio
+
+
+#korjauksia...
+84: branchLoc(,A-talo Atk-luokka) # 30, 0, Atk-luokka, 16, 84, 0
+37: branchLoc(,A-talo pieni sali) # 30, 0, 13, 0, 37, Auditorio
+
 119: branchLoc(,B-talo 1.krs) # 119, 76, 0, B-talo 1.krs./Kamuluokka, 0, 7
-196: branchLoc(,B-talo 113/M) # 196, 643, 0, B-talo 113/Muskari, 30, 
-283: branchLoc(,B-talo 113/M) # , 30, 1, 283, 3, B-talo 113/Muskarin välikkö
 270: branchLoc(,B-talo 206/H) # 30, 0, B-talo 206/Hiltunen Lassi, 11, 0, 270
 314: branchLoc(,B-talo 208/A) # , 30, 3, 15, 314, B-talo 208/Aki Hietala
 151: branchLoc(,B-talo 215/B) # B-talo 215/Bassoluokka Lassi Hiltunen, 151, 50, 0, , 30
@@ -67,8 +73,7 @@
 140: branchLoc(,B-talo 4.krs) # 30, , B-talo 4.krs./Bändiluokka, 80, 0, 140
 272: branchLoc(,B-talo 4.krs) # B-talo 4.krs./Bändiluokka syvennys, 272, 4, 3, , 30
 381: branchLoc(,B-talo 4.krs) # 30, 0, 8, 381, 3, B-talo 4.krs./Jari Lappalainen ja Kirsi Uutinen
-199: branchLoc(,B-talo 4.krs) # 8, 0, 199, B-talo 4.krs./Mikko Tirronen, 0, 30
-189: branchLoc(,B-talo 4.krs) # 4, 0, 189, B-talo 4.krs./Musiikkikerho Päivi Eerola, 30, 
+199: branchLoc(,B-talo 4.krs) # 8, 0, 199, B-talo 4.krs./Mikko Tirronen, 0, 30 
 235: branchLoc(,B-talo 4.krs) # , 30, 57, 235, 3, B-talo 4.krs./Rumpuluokka 2
 198: branchLoc(,B-talo 4.krs) # 30, 0, B-talo 4.krs./Solfaluokka (Teoria 2) Emilia Sowah, 198, 15, 0
 161: branchLoc(,B-talo 4.krs) # 161, 53, 0, B-talo 4.krs./Studio, 30, 
@@ -90,11 +95,28 @@
 207: branchLoc(,C-siipi C214) # 3, 3, 207, C-siipi C214/ Perätila, 30, 
 150: branchLoc(,C-siipi Lyöm) # 0, 233, 150, C-siipi Lyömäsoitinluokka Matti Koponen, 0, 30
 259: branchLoc(,C-siipi/Kunt) # 1, 259, 3, C-siipi/Kuntosali, , 30
-72: branchLoc(,Enon muskari) # 0, 30, Enon muskari, 49, 0, 72
-385: branchLoc(,esICS1827024) # 1, 385, 0, esICS18270240, 0, 30
-231: branchLoc(,Hukanhaudan ) # Hukanhaudan muskari, 231, 58, 0, , 30
-51: branchLoc(,Kanteleluokk) # 0, 30, Kanteleluokka Anna-Maija Kekki, 48, 0, 51
-378: branchLoc(,Karhumäen mu) # Karhumäen muskari, 15, 378, 0, 30, 0
+
+# Ihmeellinen virhe. Poistetaan.
+385: $DELETE # 1, 385, 0, esICS18270240, 0, 30
+
+# korjauksia...
+51: branchLoc(,B-talo Kanteleluokk) # 0, 30, Kanteleluokka Anna-Maija Kekki, 48, 0, 51
+
+241: $DELETE # 241, 1, 0, Konservatorio/Iltapäiväkerho, , 30
+
+351: $DELETE # 30, , Marjo Hämäläinen, 351, 3, 0
+1: branchLoc(,A-talo Musiikkikirj) # 0, 12301, 1, Musiikkikirjasto, 0, 30
+337: branchLoc(,A-talo Musiikkikirj) # , 30, Musiikkikirjasto/Eerolan hylly, 3, 53, 337
+214: branchLoc(,A-talo Musiikkikirj) # 0, , 782, 3, 214, Musiikkikirjasto/Käsikirjasto
+293: branchLoc(,A-talo Musiikkikirj) # 30, , Musiikkikirjasto/Käytävän kaappi, 3, 520, 293
+
+3: $DELETE # 0, 30, 10, 0, 3, Pianopedagogiikka
+379: branchLoc(,Rupla) # 379, 1, 0, Rupla, 0, 30
+178: branchLoc(,A-talo Vahtimestari) # Vahtimestari/Juha Sorsa, 178, 20, 0, , 30
+
+
+#AMK paikkoja ei tuoda Kohaan vaan ne poistuvat
+227: branchLoc(,AMK/Pop/jazz) # 0, 1, 227, AMK/Pop/jazz-osasto, , 30
 326: branchLoc(,Karjalantalo) # 326, 6, 3, Karjalantalo/Anni luokka, , 30
 336: branchLoc(,Karjalantalo) # Karjalantalo/Armas luokka, 7, 3, 336, 30, 
 341: branchLoc(,Karjalantalo) # Karjalantalo/Bänditilan aula, 28, 341, 3, , 30
@@ -110,24 +132,27 @@
 334: branchLoc(,Karjalantalo) # 17, 3, 334, Karjalantalo/Teppana luokka, 30, 
 347: branchLoc(,Karjalantalo) # 30, , 3, 23, 347, Karjalantalo/Tsaali
 344: branchLoc(,Karjalantalo) # Karjalantalo/Tson, 33, 3, 344, , 30
-230: branchLoc(,Karsikon mus) # 30, , 2, 0, 230, Karsikon muskari
-241: branchLoc(,Konservatori) # 241, 1, 0, Konservatorio/Iltapäiväkerho, , 30
-224: branchLoc(,Kontiolahden) # Kontiolahden muskari, 16, 224, 0, , 30
-229: branchLoc(,Lehmon muska) # Lehmon muskari, 229, 90, 0, , 30
-351: branchLoc(,Marjo Hämälä) # 30, , Marjo Hämäläinen, 351, 3, 0
-1: branchLoc(,Musiikkikirj) # 0, 12301, 1, Musiikkikirjasto, 0, 30
-337: branchLoc(,Musiikkikirj) # , 30, Musiikkikirjasto/Eerolan hylly, 3, 53, 337
-214: branchLoc(,Musiikkikirj) # 0, , 782, 3, 214, Musiikkikirjasto/Käsikirjasto
-293: branchLoc(,Musiikkikirj) # 30, , Musiikkikirjasto/Käytävän kaappi, 3, 520, 293
-319: branchLoc(,Niittylahden) # Niittylahden muskari, 52, 319, 0, 30, 
-233: branchLoc(,Noljakan mus) # Noljakan muskari, 57, 233, 0, , 30
-239: branchLoc(,Onttolan mus) # 30, , Onttolan muskari, 239, 46, 0
-3: branchLoc(,Pianopedagog) # 0, 30, 10, 0, 3, Pianopedagogiikka
-228: branchLoc(,Rantakylän m) # 228, 4, 0, Rantakylän muskari, 30, 
-379: branchLoc(,Rupla) # 379, 1, 0, Rupla, 0, 30
 362: branchLoc(,Sirkkala Rai) # 7, 0, 362, Sirkkala Raija Pesonen-Leinonen, 30, 
 310: branchLoc(,Tiedepuisto) # 30, , Tiedepuisto, 27, 310, 0
 349: branchLoc(,Toonikatalo) # Toonikatalo, 0, 2, 349, 30, 
-178: branchLoc(,Vahtimestari) # Vahtimestari/Juha Sorsa, 178, 20, 0, , 30
+
+# Muskareista poistetaan kaikki esineet.
+# Kootaan kaikki muu aineisto yhteen yhteiseen muskarisijaintiin, joka siivotaan.
+372: branchLoc(,A-talo B110/) # 0, 30, 31, 372, 3, A-talo B110/Muskari
+196: branchLoc(,B-talo 113/M) # 196, 643, 0, B-talo 113/Muskari, 30, 
+283: branchLoc(,B-talo 113/M) # , 30, 1, 283, 3, B-talo 113/Muskarin välikkö
+189: branchLoc(,B-talo 4.krs) # 4, 0, 189, B-talo 4.krs./Musiikkikerho Päivi Eerola, 30,
+72: branchLoc(,Enon muskari) # 0, 30, Enon muskari, 49, 0, 72
+231: branchLoc(,Hukanhaudan ) # Hukanhaudan muskari, 231, 58, 0, , 30
+378: branchLoc(,Karhumäen mu) # Karhumäen muskari, 15, 378, 0, 30, 0
+230: branchLoc(,Karsikon mus) # 30, , 2, 0, 230, Karsikon muskari
+224: branchLoc(,Kontiolahden) # Kontiolahden muskari, 16, 224, 0, , 30
+229: branchLoc(,Lehmon muska) # Lehmon muskari, 229, 90, 0, , 30
+319: branchLoc(,Niittylahden) # Niittylahden muskari, 52, 319, 0, 30, 
+233: branchLoc(,Noljakan mus) # Noljakan muskari, 57, 233, 0, , 30
+239: branchLoc(,Onttolan mus) # 30, , Onttolan muskari, 239, 46, 0
+228: branchLoc(,Rantakylän m) # 228, 4, 0, Rantakylän muskari, 30, 
+
+
 
 _DEFAULT_: warning()
