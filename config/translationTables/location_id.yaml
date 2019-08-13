@@ -7,6 +7,7 @@
 #
 # This mapping table is used by the module MMT::TranslationTable::LocationId, it defines mappings from location column to Koha's shelving_location
 
+# PrettyLib-termi Sijaintipaikka
 
 # PrettyLibValue, KohaValue
 #             Id, Location, Period, UserLevel, Role, Freq
