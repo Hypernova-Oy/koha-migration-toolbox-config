@@ -115,26 +115,26 @@
 178: branchLoc(,A-Vahti) # Vahtimestari/Juha Sorsa, 178, 20, 0, , 30
 
 
-#AMK paikkoja ei tuoda Kohaan vaan ne poistuvat
-227: $DELETE # 0, 1, 227, AMK/Pop/jazz-osasto, , 30
-326: $DELETE # 326, 6, 3, Karjalantalo/Anni luokka, , 30
-336: $DELETE # Karjalantalo/Armas luokka, 7, 3, 336, 30, 
-341: $DELETE # Karjalantalo/Bänditilan aula, 28, 341, 3, , 30
-331: $DELETE # , 30, 10, 3, 331, Karjalantalo/Ella luokka
-335: $DELETE # Karjalantalo/Happo luokka, 3, 4, 335, , 30
-345: $DELETE # 30, , Karjalantalo/Jimi, 36, 345, 3
-321: $DELETE # Karjalantalo/Käsikirjasto, 95, 321, 3, , 30
-330: $DELETE # , 30, 1, 3, 330, Karjalantalo/Otto luokka
-323: $DELETE # 323, 119, 3, Karjalantalo/Pop-jazz, 30, 
-333: $DELETE # 0, 30, 66, 3, 333, Karjalantalo/Rajakapteenin Pirtti
-357: $DELETE # 357, 1, 3, Karjalantalo/Ranka luokka, , 30
-329: $DELETE # , 30, Karjalantalo/Repo luokka, 329, 4, 3
-334: $DELETE # 17, 3, 334, Karjalantalo/Teppana luokka, 30, 
-347: $DELETE # 30, , 3, 23, 347, Karjalantalo/Tsaali
-344: $DELETE # Karjalantalo/Tson, 33, 3, 344, , 30
-362: $DELETE # 7, 0, 362, Sirkkala Raija Pesonen-Leinonen, 30, 
-310: $DELETE # 30, , Tiedepuisto, 27, 310, 0
-349: $DELETE # Toonikatalo, 0, 2, 349, 30, 
+#AMK paikat tuodaan Kohaan mutta hidden from opac
+227: AMK-Pop/Jazz # 0, 1, 227, AMK/Pop/jazz-osasto, , 30
+326: AMK-Anni # 326, 6, 3, Karjalantalo/Anni luokka, , 30
+336: AMK-Armas # Karjalantalo/Armas luokka, 7, 3, 336, 30,
+341: AMK-Kar/Bt # Karjalantalo/Bänditilan aula, 28, 341, 3, , 30
+331: AMK-Kar/El # , 30, 10, 3, 331, Karjalantalo/Ella luokka
+335: AMK-Kar/Ha # Karjalantalo/Happo luokka, 3, 4, 335, , 30
+345: AMK-Kar/Ji # 30, , Karjalantalo/Jimi, 36, 345, 3
+321: AMK-Kar/Kä # Karjalantalo/Käsikirjasto, 95, 321, 3, , 30
+330: AMK-Kar/Ot # , 30, 1, 3, 330, Karjalantalo/Otto luokka
+323: AMK-Kar/Pop # 323, 119, 3, Karjalantalo/Pop-jazz, 30, 
+333: AMK-Kar/Rp # 0, 30, 66, 3, 333, Karjalantalo/Rajakapteenin Pirtti
+357: AMK-Kar/Ra # 357, 1, 3, Karjalantalo/Ranka luokka, , 30
+329: AMK-Kar/Re # , 30, Karjalantalo/Repo luokka, 329, 4, 3
+334: AMK-Kar/Te # 17, 3, 334, Karjalantalo/Teppana luokka, 30, 
+347: AMK-Kar/Tsa # 30, , 3, 23, 347, Karjalantalo/Tsaali
+344: AMK-Kar/Tso # Karjalantalo/Tson, 33, 3, 344, , 30
+362: AMK-Sir/RPL # 7, 0, 362, Sirkkala Raija Pesonen-Leinonen, 30, 
+310: AMK-Tiedep # 30, , Tiedepuisto, 27, 310, 0
+349: AMK-Toonika # Toonikatalo, 0, 2, 349, 30, 
 
 # Muskareista poistetaan kaikki esineet.
 # Kootaan kaikki muu aineisto yhteen yhteiseen muskarisijaintiin, joka siivotaan.

@@ -6,6 +6,8 @@
 #
 # This mapping table is used by the module MMT::TranslationTable::PatronCategorycode, it defines mappings from PrettyLib.Customer.Id_Group to koha.borrowers.categorycode
 
+# PrettyLib-Termi: Tilastointiryhmä
+
 
 #Ei käytetä ollenkaan näitä ryhmittelyjä PrettyLib:ssä.
 #Uudet luokitukset tehdään käsipelillä:
@@ -88,6 +90,12 @@
 #83: Baritonitorv # 83, , Baritonitorvi
 #84: Rytmimusiikk # Rytmimusiikki, , 84
 #85: Harmonikkakk # 85, , Harmonikkakkiopisto
+
+#Mäpätään uudet arvot PrettyLib:stä
+## Koha-opiskelija => OPIS
+## Koha-henkilökunta => HENK
+## Koha-muut => MUU
+
 
 # Lajeja ei käytetä PrettyLib:ssä.
 # Hoidetaan asiakastiedot käsipelillä oikeaan asiakaslajiin.
